@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familie und Kultur — conversație · Germană B1-B2</title>
+    <meta property="og:title" content="Familie und Kultur (Conversație B1-B2)">
+    <meta property="og:description" content="Vorbește despre rolul familiei în diferite culturi: vocabular, idiomuri, fraze utile + dialog animat Andreea↔Kenji. Nivel B1-B2.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog" onclick="openSection(1)">🎬 Dialog</a></li>
+            <li><a href="#ex1" onclick="openSection(2)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(3)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(4)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(5)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(6)">✍️ Producere</a></li>
+            <li><a href="#flashcards" onclick="openSection(7)">📇 Flashcards</a></li>
+            <li><a href="#verbs" onclick="openSection(8)">🔁 Verb-Konjugation</a></li>
+            <li><a href="#final-test" onclick="openSection(9)">🎯 Test Final</a></li>
+            <li><a href="conversatie-b1-familie-kultur.pdf" download>📄 PDF</a></li>
+            <li><a href="https://yaz5dfqyx89.typeform.com/to/JHBHSIRc" target="_blank" rel="noopener noreferrer">💬 Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Familie und Kultur</h1>
+            <p class="subtitle">Rolul familiei în diferite culturi — conversație · Nivel B1-B2</p>
+            <p>Claudia Toth · Conversație B1</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ 🎬 Dialog animat: Andreea & Kenji</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <p style="margin-bottom:14px;"><em>Apasă ▶️ Pornește. Bulele apar pe rând, personajul activ „pulsează". Ascultă cum Andreea și Kenji compară familia în România și Japonia, folosind frazele și expresiile din teorie. Reascultă orice replică cu 🔁.</em></p>
+                    <div id="dialog1-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 1: Lückentext — completează</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 2: Expresii idiomatice — potrivește</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 3: Vocabular — potrivește DE ↔ RO</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 4: Textverstehen — înțelegerea dialogului</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 5: Producere & Reflecție (scriere liberă)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div class="theory-box">
+                        <h4>🎭 Producere de dialog</h4>
+                        <p>Creează propriul dialog de <strong>minim 10 replici</strong> despre structuri familiale tradiționale și moderne. Folosește:</p>
+                        <ul>
+                            <li>minim <strong>5 fraze</strong> din secțiunea „Fraze utile";</li>
+                            <li>minim <strong>2 cuvinte</strong> din vocabular;</li>
+                            <li>minim <strong>1 expresie idiomatică</strong>;</li>
+                            <li>experiențe personale și emoții autentice.</li>
+                        </ul>
+                    </div>
+                    <div class="theory-box" style="background:#dbeafe;border-color:#3b82f6;">
+                        <h4>🪞 Reflecție — scrie 5-8 propoziții</h4>
+                        <ul>
+                            <li>Wie wichtig ist die Familie in deiner Kultur? <em>(Cât de importantă e familia în cultura ta?)</em></li>
+                            <li>Was hat sich in den letzten Generationen verändert? <em>(Ce s-a schimbat în ultimele generații?)</em></li>
+                            <li>Was schätzt du an deiner Familientradition am meisten? <em>(Ce apreciezi cel mai mult?)</em></li>
+                            <li>Welche Werte möchtest du an deine Kinder weitergeben? <em>(Ce valori ai vrea să transmiți?)</em></li>
+                        </ul>
+                    </div>
+
+                    <!-- ===== SCHREIBÜBUNG — submit text (Google Form) ===== -->
+                    <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 2px solid #10B981; border-radius: 14px; padding: 24px 22px; margin-top: 18px; text-align: center; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12);">
+                        <div style="font-size: 2.2rem; margin-bottom: 4px;">✍️</div>
+                        <h4 style="color: #065f46; font-size: 1.2rem; margin: 0 0 8px; font-weight: bold;">Vrei să-ți corectez textul?</h4>
+                        <p style="color: #047857; font-size: 0.95rem; margin: 0 0 16px; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+                            După ce scrii dialogul sau reflecția, trimite-mi textul. Îl citesc personal și îți răspund pe email cu corectările.
+                        </p>
+                        <a href="https://forms.gle/REPLACE" target="_blank" rel="noopener noreferrer" id="writing-form-link" style="display: inline-block; background: #10B981; color: white; padding: 13px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1rem; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);">
+                            Trimite textul Claudiei →
+                        </a>
+                        <p style="color: #6b7280; font-size: 0.78rem; margin-top: 12px; font-style: italic;">ʚଓ Răspuns personal pe email · Nu uita să-ți treci adresa de email în formular</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Flashcards - Învățare prin repetiție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbs">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🔁 Verb-Konjugation - Verbe tematice</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Gut gemacht!</p>
+                <p>Acum poți purta o conversație autentică despre familie și cultură. La proba orală B1-B2: deschide cald, compară trecut↔prezent, adaugă emoție și plasează o expresie idiomatică. Asta face diferența!</p>
+            </div>
+
+            <!-- ===== FEEDBACK BANNER ===== -->
+            <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 2px solid #10B981; border-radius: 14px; padding: 28px 24px; margin-top: 32px; text-align: center; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12);">
+                <div style="font-size: 2.4rem; margin-bottom: 6px;">💬</div>
+                <h3 style="color: #065f46; font-size: 1.4rem; margin: 0 0 10px; font-weight: bold;">Spune-ne părerea ta!</h3>
+                <p style="color: #047857; font-size: 1rem; margin: 0 0 18px; max-width: 540px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+                    Ne ajuți cu un feedback scurt despre lecție? Părerea ta mă ajută să fac lecțiile <strong>tot mai pe înțelesul tău</strong>. Durează sub 2 minute. 🦋
+                </p>
+                <a href="https://yaz5dfqyx89.typeform.com/to/JHBHSIRc" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #10B981; color: white; padding: 14px 32px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.05rem; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);">✨ Completează formularul →</a>
+                <p style="color: #6b7280; font-size: 0.82rem; margin-top: 14px; font-style: italic;">ʚଓ Claudia Toth · Mulțumesc pentru încredere</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="dialogs.js?v=1"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
