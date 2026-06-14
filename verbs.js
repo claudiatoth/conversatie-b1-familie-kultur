@@ -116,7 +116,7 @@ function buildVerbs() {
     const container = document.getElementById('verbs-container');
     if (!container) return;
     let html = `
-        <div class="theory-box" style="background:#fffbeb;border-left:4px solid #f59e0b">
+        <div class="theory-box" style="background:#F5F0E8;border-left:4px solid #D4A574">
             <h4>📌 Verbe tematice pentru a vorbi despre familie</h4>
             <p>Toate cinci sunt <strong>REGULATE</strong>. Atenție la prefixele neseparabile <strong>be-/ver-</strong> → Perfekt FĂRĂ „ge-" (bewahrt, vermittelt, verändert).</p>
             <p style="margin-top:8px"><strong>Reamintire:</strong> Präteritum = IMPERFECT (transmitea, se schimba). Perfekt = perfect compus (a transmis).</p>
@@ -144,7 +144,7 @@ function buildVerbs() {
                     <table class="grammar-table"><thead><tr><th>Pronume</th><th>Formă</th><th>Traducere RO</th></tr></thead><tbody>${praeteritumRows}</tbody></table>
                     <h4 style="color:#065f46;margin:14px 0 8px">📕 Perfekt (timp vorbit)</h4>
                     <div class="example-box"><div class="de">${v.perfekt}</div><div class="ro">${v.perfektRo}</div></div>
-                    <div class="theory-box" style="margin-top:12px;background:#f0fdf4"><p><strong>📌 Notă:</strong> ${v.notes}</p></div>
+                    <div class="theory-box" style="margin-top:12px;background:#FBF7EF"><p><strong>📌 Notă:</strong> ${v.notes}</p></div>
                 </div>
             </div>
         `;

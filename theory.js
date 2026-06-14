@@ -40,7 +40,7 @@ const theoryHTML = `
                 <p style="margin-top:6px;">🇷🇴 Construiește un dialog despre structurile familiale tradiționale și moderne. Integrează experiențe personale, emoții și povești.</p>
             </div>
 
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>✍️ Notă despre diacritice</h4>
                 <p>Verificarea e blândă: poți scrie Umlaut-urile corect (<em>Großfamilie</em>) sau cu varianta de înlocuire (<em>Grossfamilie</em>). Ambele sunt acceptate.</p>
             </div>
@@ -153,7 +153,7 @@ const theoryHTML = `
                     <tr><td class="verb">In [Land] legen wir großen Wert auf...</td><td>În [țară], acordăm o mare importanță...</td></tr>
                 </tbody>
             </table>
-            <p style="margin-top:6px;color:#6b7280;font-style:italic;">* gang und gäbe = obișnuit, răspândit, general acceptat.</p>
+            <p style="margin-top:6px;color:#5A5147;font-style:italic;">* gang und gäbe = obișnuit, răspândit, general acceptat.</p>
 
             <h4 style="color:#065f46;margin:16px 0 8px;">4.3 Opinii & emoții</h4>
             <table class="grammar-table">
